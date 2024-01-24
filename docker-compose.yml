@@ -12,7 +12,7 @@ version: '2'
 
 services:
   ctfd:
-    image: ctfd/ctfd:3.5.1
+    image: ctfd/ctfd:3.6.1
     restart: always
     ports:
       - "8000:8000"
